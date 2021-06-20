@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    font-family: Tahoma;
+    font-size: 15px;
+    width: auto;
+    margin: 0px 100px;
+    height: auto;
+}
+#quangcao{
+    padding: 0;
+    height: 100px;
+}
+
+#quangcao .q ul li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+    
+}
+#banner{
+    margin-top: -50px;
+    clear: left;
+    height: auto;
+}
+#banner .logo{
+    display: inline-block;
+}
+#banner .logo-ads{
+    display: inline-block;
+}
+
+#menu{
+    margin-top: 0px;
+    height: 40px;
+    width: 100%;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background: yellow;
+    
+}
+#menu ul li{
+    list-style: none;
+    float: left;
+   }
+   #menu ul li a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: auto;
+    height: 40px;
+    border-right: 1px solid silver;
+    line-height: 40px;
+    color:black;
+    
+    align-content: center;
+    margin-right: 10px;
+   }
+   #main #left{
+       width: 1150px;
+       background: lightcoral;
+    float: left;
+   }
+
+   #main #left #col-1{
+       background: lightsalmon;
+       width: 750px;
+       float: left;
+   }
+   #main #left #col-1 #row-1{
+       height: 40px;
+       background: magenta;
+
+   }
+   #main #left #col-2{
+       background: lime;
+       width: 400px;
+       float: left;
+   }
+
+   #main #left #col-2 #row-1{
+       background: mediumblue;
+       height: 40px;
+       text-align: right;
+       font-weight: bold;
+       font-size: 25px;
+   }
+
+   #main #left #col-2 #row-2{
+       padding: 0px;
+       margin-top: -15px;
+        background: mediumseagreen;
+        height: 350px;
+        
+        
+   }
+   #main #left #col-2 #row-2 ul li{
+        list-style: none;
+        font-size: 20px;
+        padding: 5px;
+        border-bottom: 1px solid silver;
+        margin-bottom: 15px;
+        margin-left: -25px;
+        margin-right: 5px;
+   }
+   #main #left #col-2 #row-3{
+       background: orange;
+       height: 250px;
+       font-size: 16px;
+       padding: 0px;
+   }
+
+   #main #right{
+       background: lightgoldenrodyellow;
+       width: 500px;
+       float: right;
+   }
+   #main #right #row-1{
+       margin-top: -10px;
+       height: 40px;
+       background: orangered;
+   }
+   #main #right #row-1 ul li{
+       text-align: center;
+       padding: 10px;
+    list-style: none;
+   }
+   #main #right #row-1 ul li a{
+       padding: 5px;
+       border-right: 2px solid  black;
+   }
